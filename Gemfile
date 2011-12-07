@@ -17,6 +17,7 @@ group :development do
   gem 'rspec-rails', '2.6.1'
   # When deploy to heroku, need blank this?
   gem 'sqlite3'
+  gem 'annotate', '2.4.0'
 end
 
 group :test do
