@@ -5,6 +5,7 @@ gem 'rails', '3.1.3'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
+gem 'gravatar_image_tag', '1.0.0.pre2'
 
 
 group :production do
@@ -23,6 +24,7 @@ end
 group :test do
   gem 'rspec-rails', '2.6.1'
   gem 'webrat', '0.7.1'
+  gem 'factory_girl_rails', '1.0'
 end
 
 # Gems used only for assets and not required
