@@ -6,7 +6,7 @@ gem 'rails', '3.1.3'
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
 gem 'gravatar_image_tag', '1.0.0.pre2'
-
+gem 'will_paginate', '3.0.pre2'
 
 group :production do
 # gems specifically for Heroku go here
@@ -19,6 +19,7 @@ group :development do
   # When deploy to heroku, need blank this?
   gem 'sqlite3'
   gem 'annotate', '2.4.0'
+  gem 'faker', '0.3.1'
 end
 
 group :test do
